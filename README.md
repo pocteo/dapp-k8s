@@ -26,11 +26,11 @@ It makes the next step which is `configuring metamask` much more easy.
 ## Step 3. Configure Metamask
 
 1. Unlock Metamask :
-[Unlock-metamask](https://miro.medium.com/max/359/1*ym2Y3hcop0aoPM2UOPy8GA.png)
+![Unlock-metamask](https://miro.medium.com/max/359/1*ym2Y3hcop0aoPM2UOPy8GA.png)
 
 2. Connect metamask to your local Etherum blockchain provided by Ganache by switching to https://localhost:8545 :
 
-[ganache](https://i.stack.imgur.com/RaR7P.png)
+![ganache](https://i.stack.imgur.com/RaR7P.png)
 
 3. Import an account provided by ganache :
 If you started ganache with `ganache-cli`command, each time you start ganache you need to import the private in metamask to connect to one of 10 accounts that ganache instance gives you. This is why it's recommended to start ganache with you mnemonic .
