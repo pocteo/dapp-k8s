@@ -26,9 +26,12 @@ It makes the next step which is `configuring metamask` much more easy.
 ## Step 3. Configure Metamask
 
 1. Unlock Metamask :
+
+
 ![Unlock-metamask](https://miro.medium.com/max/359/1*ym2Y3hcop0aoPM2UOPy8GA.png)
 
 2. Connect metamask to your local Etherum blockchain provided by Ganache by switching to https://localhost:8545 :
+
 
 ![ganache](https://i.stack.imgur.com/RaR7P.png)
 
