@@ -36,6 +36,7 @@ It makes the next step which is `configuring metamask` much more easy.
 ![ganache](https://i.stack.imgur.com/RaR7P.png)
 
 3. Import an account provided by ganache :
+
 If you started ganache with `ganache-cli`command, each time you start ganache you need to import the private in metamask to connect to one of 10 accounts that ganache instance gives you. This is why it's recommended to start ganache with you mnemonic .
 
 ## Step 4. Compile & Deploy Election Smart Contract
