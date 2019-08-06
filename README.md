@@ -3,14 +3,14 @@ Build a Hello-world decentralized application, or Dapp, on the Ethereum Network.
 
 ## Dependencies
 Install these prerequisites to follow along with the tutorial. 
-- [NPM](https://nodejs.org)
+
 - [Truffle](https://github.com/trufflesuite/truffle)
 - [Ganache](https://www.npmjs.com/package/ganache-cli)
 - [Metamask](https://metamask.io/)
 
 ## Step 1. Clone the project
 ```
-git clone https://github.com/pocteo/dapp-k8s.git
+$ git clone https://github.com/pocteo/dapp-k8s.git
 ```
 ## Step 2. Start Ganache
 Start a local blockchain instance:
@@ -21,7 +21,7 @@ If you have already a wallet you can start ganache using your [mnemonic](https:/
 ```
 $ ganache-cli -m 'your-mnemonic'
 ```
-It makes the next step which is `configuring metamask` much more easy.
+It makes the next step which is `metamask configuration` much more easy.
 
 ## Step 3. Configure Metamask
 
@@ -37,9 +37,15 @@ It makes the next step which is `configuring metamask` much more easy.
 
 3. Import an account provided by ganache :
 
-If you started ganache with `ganache-cli`command, each time you start ganache you need to import the private in metamask to connect to one of 10 accounts that ganache instance gives you. This is why it's recommended to start ganache with you mnemonic .
+If you started ganache with `ganache-cli`command, each time you start ganache you need to import the private key in metamask to connect to one of 10 accounts that ganache instance gives you. This is why it's recommended to start ganache with your mnemonic .
 
 ## Step 4. Compile & Deploy Election Smart Contract
+
+Contracts Deployment in ethereum network is done through an ethereum transaction. `Ethereum transaction` must have sender and reciever. The sender of the transaction is known as the owner of the contract . This is why we should configure `Truffle framework` to use our private key in creating an `Ethereum transaction` to deploy the smart contract.
+
+To do that, you only have to create a file named `secret` in the root of the project and put your mnemonic inside it.
+
+Fees will be automatically taken from the wallet that `truffle` is configured to use.
 
 ```
 $ cd dapp-k8s
