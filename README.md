@@ -51,6 +51,8 @@ Fees will be automatically taken from the wallet that `truffle` is configured to
 $ cd dapp-k8s
 $ truffle migrate development
 ```
+After contract migration we need the contract abi and address so that we can interact with it .
+This why you need to change abi and address values in `utils.js` file. Every time you restart ganache you need to repeat the whole process. 
 
 ## Step 5. Run the Front End Application
 
