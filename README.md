@@ -49,6 +49,7 @@ Fees will be automatically taken from the wallet that `truffle` is configured to
 
 ```
 $ cd dapp-k8s
+$ truffle compile 
 $ truffle migrate development
 ```
 After contract migration we need the contract abi and address so that we can interact with it .
