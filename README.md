@@ -39,7 +39,7 @@ It makes the next step which is `metamask configuration` much more easy.
 
 If you started ganache with `ganache-cli`command, each time you start ganache you need to import the private key in metamask to connect to one of 10 accounts that ganache instance gives you. This is why it's recommended to start ganache with your mnemonic .
 
-## Step 4. Compile & Deploy Election Smart Contract
+## Step 4. Compile & Deploy Hello-Pocteo Smart Contract
 
 Contracts Deployment in ethereum network is done through an ethereum transaction. `Ethereum transaction` must have sender and reciever. The sender of the transaction is known as the owner of the contract . This is why we should configure `Truffle framework` to use our private key in creating an `Ethereum transaction` to deploy the smart contract.
 
